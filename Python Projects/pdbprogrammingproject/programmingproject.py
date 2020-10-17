@@ -1,3 +1,4 @@
+#Link to GitHub repository:https://github.com/KR031994/bch5884
 #Krittika's 1st programmingproject
 import sys
 pdbname=sys.argv[1]
@@ -5,7 +6,6 @@ f=open(pdbname)
 words2=list()
 words3=list()
 str1=""
-file=open("programmingproject11.pdb","w")
 sum1 = float()
 sum2 = float()
 sum3 = float()
