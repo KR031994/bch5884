@@ -83,8 +83,8 @@ else:
        words3[i][7]= float(words2[i][7]-sumy)
        words3[i][8]= float(words3[i][8]-sumz)
 
-#Using formatted strings to write the new pdb file    
-f=open("programmingproject.pdb","w")
+#Using formatted strings to write the new pdb file for geometric center   
+f=open("centeredwithgeometriccenter.pdb","w")
 for line in words2:
     f.write("%-6s%5d %-4s%3s %-1s%4d %8.3f%8.3f%8.3f%6.2f%6.2f %-2s \n" %(line[0],int(line[1]),line[2],line[3],line[4],int(line[5]),(line[6]),(line[7]),(line[8]),(line[9]),(line[10]),line[11]))    
 f.close()     
